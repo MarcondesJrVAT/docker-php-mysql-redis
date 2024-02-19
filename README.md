@@ -4,7 +4,7 @@
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com//setup-docker-laravel.git
+git clone https://github.com/MarcondesJrVAT/docker-php-mysql-redis
 ```
 
 Clone os Arquivos do Laravel
@@ -15,7 +15,7 @@ git clone https://github.com/laravel/laravel.git app-laravel
 
 Copie os arquivos docker-compose.yml, Dockerfile e o diretório docker/ para o seu projeto
 ```sh
-cp -rf setup-docker-laravel/* app-laravel/
+cp -rf docker-php-mysql-redis/* app-laravel/
 ```
 ```sh
 cd app-laravel/
